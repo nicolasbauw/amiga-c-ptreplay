@@ -4,6 +4,9 @@
  
  uses PTReplay.library also by BetaSoft
  and Andreas [Pucko] P�lsson
+
+ Modified in 2020 by Nicolas BAUW
+ for cross-compilation (VBCC)
  
 ****************************************/
 
@@ -15,8 +18,6 @@
 #include <stdlib.h>
 
 #include "include/ptreplay.h"
-#include "include/ptreplay_protos.h"
-#include "include/ptreplay_pragmas.h"
 
 struct Library *PTReplayBase;
 struct Module *Mod = NULL;
@@ -25,7 +26,6 @@ char *vstr="$VER: SmallPlay 2.0 (23.12.93)";
 
 int main(int argc, char **argv)
 {
-PTReplayBase = (struct Library*)OpenLibrary("ptreplay.library", 0);
 BYTE SigBit;
 ULONG SigMask;
 
