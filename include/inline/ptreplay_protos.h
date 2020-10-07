@@ -1,4 +1,3 @@
-// Copy this file to ~/Amiga-cc/amiga_sdk/NDK_3.9/Include/include_h/inline/
 #ifndef _VBCCINLINE_PTREPLAY_H
 #define _VBCCINLINE_PTREPLAY_H
 

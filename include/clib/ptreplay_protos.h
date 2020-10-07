@@ -1,6 +1,4 @@
 /*** PROTOS FOR PTREPLAY.LIBRARY ***/
-// Copy this file to ~/Amiga-cc/amiga_sdk/NDK_3.9/Include/include_h/clib
-// This file is the original from this archive : http://aminet.net/mus/play/ptreplay66.lha
 
 struct Module *PTLoadModule(STRPTR);
 VOID PTUnloadModule(struct Module *);
