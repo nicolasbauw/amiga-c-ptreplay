@@ -6,7 +6,8 @@
  and Andreas [Pucko] P�lsson
 
  Modified in 2020 by Nicolas BAUW
- for cross-compilation (VBCC)
+ for cross-compilation (VBCC) +
+ quit bugfix
  
 ****************************************/
 
