@@ -48,12 +48,9 @@ ULONG SigMask;
 
 			PTPlay(Mod);
 
-			SigMask=Wait(SIGBREAKF_CTRL_C | 1L<<SigBit);
+			SigMask=Wait(SIGBREAKF_CTRL_C);
 
-			if(SigMask & SIGBREAKF_CTRL_C)
-				PTFade(Mod,1);
-			else
-				PTStop(Mod);
+			PTStop(Mod);
 
 			FreeSignal(SigBit);
 
